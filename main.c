@@ -1,16 +1,10 @@
-#include <stdio.h>
-
-int main (void)
-{
-    for (int i = 1; i < 11; i++)
+#include<stdio.h>
+ int main(void)
+ {
+    for (int i=1; i < 4; 1++)
     {
-        printf("%d ",i++)
+        printf("%d", i);
     }
-
-    
     printf("\n");
-
-    return 0,
-    
-    
+    return 0;
 }
